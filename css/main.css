@@ -1,0 +1,74 @@
+body {
+    font-family:  'Open Sans', sans-serif;
+    background-color: grey;
+    }
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #555;
+}
+
+p {
+    color: #222;
+    line-height: 1.6;
+    word-spacing: .2em;
+    font-weight: 100;
+}
+
+/*Navigation Styles*/
+nav a {
+    text-decoration: none;
+    font-weight: 200;
+    color: #555;
+    margin-left: 5px;
+}
+nav a:hover {
+    color: #383838;
+}
+
+.main-nav {
+    padding: 20px 0 20px 0;
+}
+
+/*Hero Style*/
+.hero {
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    background-size;
+}
+.hero h1 {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: aliceblue;
+}
+
+.container-full {
+    max-width: 100%;
+    padding: 5px;
+}
+
+.container-narrow {
+    width: 90%;
+    max-width: 960px;
+    padding: 0 30px;
+    justify-content: center;
+}
+.wedding{
+width: 90%;
+    max-width: 960px;
+    padding: 0 30px;
+}
+.class{
+    width: 100%;
+    background-size: cover;
+}
+.discounts{
+    width: 90%;
+    max-width: 960px;
+    padding: 0 30px;
+    justify-content: center;
+}
